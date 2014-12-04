@@ -7,6 +7,12 @@ The idea is to use Json Web Token for authentication avoiding annoying issues re
 
 Instead of supplying credentials such as a username and password with every request, we can allow the client to exchange valid credentials for a token. This token gives the client access to resources on the server. Tokens are generally much longer and more obfuscated than a password. Once the token is obtained, it must be sent with every API call. However, this is still more secure than sending a username and password with every request, even over HTTPS.
 
+Requirements:
+
+- Nodejs installation
+- Mongodb installation
+- Unix Environment (Mac or Linux)
+
 Functionalities:
 
 - Logout (NEW)
