@@ -25,7 +25,8 @@ Download the package and type:
 
 4) gulp dev (to start the server and make all changes available)
 
-5) Open another tab and type the following code to create a user>
+5) Open another tab and type the following code to create a user:
+
 curl -X POST -d '{"username":"test","password":"test"}' -H "Content-Type:application/json" localhost:3000/api/users
 
 6) Sign in with just created credentials
