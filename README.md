@@ -1,7 +1,13 @@
 mean-jwt (working progress)
 ========
 
-A project starting from "Mean Sample" by Jeff Dickey with some differences:
+A project starting from "Mean Sample" by Jeff Dickey with some differences, such as logout functionality, upload images, update post etc. 
+
+The idea is to use Json Web Token for authentication avoiding annoying issues related to Cross Scripting attacks.
+
+Instead of supplying credentials such as a username and password with every request, we can allow the client to exchange valid credentials for a token. This token gives the client access to resources on the server. Tokens are generally much longer and more obfuscated than a password. Once the token is obtained, it must be sent with every API call. However, this is still more secure than sending a username and password with every request, even over HTTPS.
+
+Functionalities:
 
 - Logout (NEW)
 - Web Socket (Not emplemented from original project yet)
